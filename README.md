@@ -34,3 +34,15 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+Design Explanation
+Framework: Next.js
+Components: The frontend includes components for user registration, login, and displaying cryptocurrency prices.
+API Integration: Axios is used to fetch data from CoinGecko.
+State Management: React hooks manage component state.
+
+API Documentation
+Endpoints:
+POST /api/register: Registers a new user.
+POST /api/login: Authenticates a user and returns a JWT token.
+GET /api/crypto/:id: Fetches the current price of a cryptocurrency.
